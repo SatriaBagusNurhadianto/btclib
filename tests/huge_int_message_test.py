@@ -24,7 +24,7 @@ from datetime import UTC, datetime
 from typing import Any
 
 import pytest
-from ecc.ecc import dsa
+from ecc import dsa
 
 from btclib import bms, obfuscation, var_int
 from btclib.alias import TaprootScriptTree
